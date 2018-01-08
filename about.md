@@ -1,15 +1,26 @@
----
-layout: page
-title: About
-permalink: /about/
----
+<!DOCTYPE html>
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+<html>
+<head>
+  <title>About Me</title>
+</head>
+<body>
+  <nav>
+    <a href="/">Home</a>
+    <!-- web browsers respond to index.html and / the same way -->
+    <a href="./aboutme.html">About Me</a>
+  </nav>
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+<h1>About Me</h1>
+<h3>Brandon Gale</h3>
+<img src="">
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+  <!-- A section that describes the brown bear -->
+  <p>Hey, my name is Brandon, and I'm a current Meteorology student at Texas A&M University. I'll try to post as many weather updates as I can.  <br /> <br />
+
+  	
+    Brandon G.
+
+  </p>
+</body>
+</html>
